@@ -8,6 +8,9 @@ application/logs/*
 
 !application/*/.htaccess
 
+application/controllers/Produk_ori.php
+application/config/routes_ori.php
+
 barang/*
 keranjang/*
 piutang/*

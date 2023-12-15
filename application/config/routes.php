@@ -53,8 +53,6 @@ $route['default_controller'] = 'produk';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-$route['api'] = 'produk/api';
-$route['add'] = 'produk/add_to_database';
 
 
 $route['status'] = 'produk/status';
@@ -70,8 +68,3 @@ $route['tambah'] = 'produk/tambahproduk';
 $route['edit/(:any)'] = 'produk/editproduk/$1';
 $route['hapus/(:any)'] = 'produk/hapusproduk/$1';
 
-$route['mahasiswa/create'] = "Mahasiswa_controller/create";
-$route['mahasiswa/create/action']['post'] = "Mahasiswa_controller/store";
-$route['mahasiswa/edit/(:any)'] = "Mahasiswa_controller/edit/$1";
-$route['mahasiswa/update/(:any)']['post'] = "Mahasiswa_controller/update/$1";
-$route['mahasiswa/delete/(:any)']['delete'] = "Mahasiswa_controller/delete/$1";
